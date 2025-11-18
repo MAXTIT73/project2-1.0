@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --main-color: #F5FAFF;
+    --secondary-color: #1E1E1E;
+    --third-color: #0b8673;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    border: 3px solid #1E1E1E;
+    height: 100vh;
+    margin: 5px;
+}
+
+
+
+hr{
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.all_alpha{
+    display: flex;
+    height: 95%;
+    width: calc(100% - 10px);
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.left_alpha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 65%;
+}
+
+.right_alpha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 32%;
+}
+
+.top_beta_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+    width: 100%;
+    color: #F5FAFF;
+    border: 2px solid  #1E1E1E 
+}
+
+.down_beta_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 77%;
+    width: 100%;
+    background-color: blueviolet;
+    border: 2px solid  #1E1E1E 
+}
+
+.top_beta_right{
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+    border: 2px solid  #1E1E1E 
+}
+
+.center_beta_right{
+    height: 52%;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.down_beta_right{
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+    border: 2px solid  #1E1E1E 
+}
+
+.top_charlie_left1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    background-color: #0b8673;
+}
+
+.top_charlie_left2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    background-color: #0b8673;
+}
+
+
+.top_charlie_left4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    background-color: #0b8673;
+}
+
+.top_charlie_left5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 17%;
+    background-color: #0b8673;
+}
+
+.down_charlie_left_top{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 40%;
+
+}
+
+.down_delta_left_left_right{
+    width: 35%;
+    height: 100%;
+    background-color: #1E1E1E;
+}
+
+.down_delta_left_right_right{
+    width: 65%;
+    height: 100%;
+}
+
+.down_delta_left_left_right img{
+    width: 90%;
+}
+
+.down_charlie_left_down{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 50%;
+}
+
+.down_delta_left_left_down{
+    width: 40%;
+    height: 100%;
+    border: 3px solid #1E1E1E;
+}
+
+.down_delta_left_right_down{
+    width: 40%;
+    height: 100%;
+    border: 3px solid #1E1E1E;
+}
+
